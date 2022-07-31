@@ -1,15 +1,18 @@
-body {
-  background-image: url('Military.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed; 
-  width: 100%;
-  height: fixed;
-  position: relative;
-}
 
 .header {
 background-image : url('American_flag.jpg');
 background-repeat: no-repeat;
+background-size: auto;
+}
+
+
+
+body {
+  background-image: url('Military.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: auto;
+  position: relative;
 }
 
 
