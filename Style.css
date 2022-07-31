@@ -3,7 +3,7 @@
 background-image : url('American_flag.jpg');
 background-repeat: no-repeat;
 background-attachment: fixed; 
-background-size: auto;
+background-size: 100% 40%;
 }
 
 h2 {
