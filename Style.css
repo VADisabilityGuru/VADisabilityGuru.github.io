@@ -3,12 +3,13 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed; 
   width: 100%;
-  height: auto;
+  height: 90%;
   position: relative;
 }
 
 .header {
 background-image : url('American_flag.jpg');
+width: 100%;
 }
 
 
