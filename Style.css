@@ -3,7 +3,7 @@
 background-image : url('American_flag.jpg');
 background-repeat: no-repeat;
 background-attachment: fixed; 
-background-size: 100% 35%;
+background-size: 100% 30%;
 }
 
 h2 {
@@ -20,7 +20,7 @@ h3 {
 
 body {
   background-image: url('Military.jpg');
-background-size: 100% 60%;
+background-size: 100% 65%;
 background-repeat: no-repeat;
 background-position: 300px 300px;
   
