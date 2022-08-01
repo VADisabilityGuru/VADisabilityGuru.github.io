@@ -31,21 +31,6 @@ background-position: 150px 150px;
 }
 
 
-.bg-img {
-  /* The image used */
-  background-image: url("img_nature.jpg");
-
-  min-height: 380px;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  /* Needed to position the navbar */
-  position: center;
-}
-
 /* Position the navbar container inside the image */
 .container {
   position: absolute;
@@ -61,7 +46,7 @@ background-position: 150px 150px;
 
 /* Navbar links */
 .topnav a {
-  float: left;
+  float: center;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
