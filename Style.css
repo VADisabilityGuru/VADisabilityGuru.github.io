@@ -9,12 +9,11 @@ position: relative;
 }
 
 body {
-  background-image: url('Military.jpg');
-  background-repeat: no-repeat;
+   background: url('Military.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  font-family: "Lato", sans-serif;
-  background-position: center;
-  position: absolute;
    }
 
 h2 {
