@@ -4,8 +4,6 @@ background-image : url('American_flag.jpg');
 background-repeat: no-repeat;
 background-size: 100% 60%;
 border-radius: 8px;
-position: relative;
-border: 1px solid #000000;
 }
 
 h2 {
