@@ -6,6 +6,17 @@ background-size: 100% 60%;
 border-radius: 8px;
 }
 
+body {
+  background-image: url('Military.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5;
+  font-family: "Lato", sans-serif;
+  transition: background-color .5s;
+  background-position: center;
+  position: absolute;
+   }
+
 h2 {
   font-size: 16px;
   color: white;
