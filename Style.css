@@ -16,7 +16,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
    }
-div {
+textbox {
   width: 700px;
   padding: 10px;
   border: 5px solid gray;
