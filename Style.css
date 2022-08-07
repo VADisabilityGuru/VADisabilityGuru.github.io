@@ -16,7 +16,7 @@ body {
   background-size: cover;
    }
 
-textbox {
+.textbox {
   position:center;
   text-align: center;
   width: 700px;
