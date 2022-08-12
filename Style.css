@@ -100,10 +100,6 @@ h3 {
 
 /* Sticky footer position and size
 -------------------------------------------------- */
-html {
-  position: relative;
-  min-height: 100%;
-}
 
 .footer {
   position: absolute;
