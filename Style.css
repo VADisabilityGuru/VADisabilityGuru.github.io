@@ -104,8 +104,8 @@ html {
   min-height: 100%;
 }
 
-.footer {
- position: fixed;
+footer {
+ position: absolute;
  left: 0;
  bottom: 0;
  width: 100%;
