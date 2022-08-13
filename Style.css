@@ -19,7 +19,7 @@ body {
 
 .textbox {
   color: white;
-  height: 350px;
+  height: 325px;
   text-align: center;
   width: 700px;
   border: 5px solid gray;
@@ -105,7 +105,7 @@ footer {
  left: 0;
  bottom: 0;
  width: 100%;
- height: 165px;
+ height: 200px;
  padding-top: 30px;
  background-color: #292c2f;
  color: #bbb;
