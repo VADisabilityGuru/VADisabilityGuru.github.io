@@ -14,7 +14,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  margin-bottom: 300px;
+  margin-bottom: 150px;
    }
 
 .textbox {
@@ -106,7 +106,7 @@ h3 {
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 300px;
+  height: 150px;
 }
 
 /* Taller footer on small screens */
