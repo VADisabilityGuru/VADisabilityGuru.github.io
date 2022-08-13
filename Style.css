@@ -7,13 +7,17 @@ margin: 0;
 opacity:0.8;
 position: relative;
 }
-
+html {
+  position: relative;
+  min-height: 100%;
+}
 body {
    background: url('Military.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  margin-bottom: 300px;
    }
 
 .textbox {
@@ -106,7 +110,7 @@ h3 {
    bottom: 0;
    width: 100%;
   /* Set the fixed height of the footer here */
-  height: 150px;
+  height: 300px;
 }
 
 /* Taller footer on small screens */
