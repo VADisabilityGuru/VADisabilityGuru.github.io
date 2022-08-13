@@ -16,6 +16,9 @@ body {
   background-size: cover;
   margin-bottom: 200px;
    }
+.text {
+   color: white;
+}
 
 .textbox {
   color: white;
