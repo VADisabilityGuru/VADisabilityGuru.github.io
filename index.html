@@ -1,3 +1,23 @@
+<?php 
+if(isset($_POST['submit'])){
+    $to = "email@example.com"; // this is your Email address
+    $from = $_POST['email']; // this is the sender's Email address
+    $first_name = $_POST['first_name'];
+    $last_name = $_POST['last_name'];
+    $subject = "Form submission";
+    $subject2 = "Copy of your form submission";
+    $message = $first_name . " " . $last_name . " wrote the following:" . "\n\n" . $_POST['message'];
+    $message2 = "Here is a copy of your message " . $first_name . "\n\n" . $_POST['message'];
+
+    $headers = "From:" . $from;
+    $headers2 = "From:" . $to;
+    mail($to,$subject,$message,$headers);
+    mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
+    echo "Mail Sent. Thank you " . $first_name . ", we will contact you shortly.";
+    // You can also use header('Location: thank_you.php'); to redirect to another page.
+    }
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -88,16 +108,16 @@
             </div>
             <div class="col-md-5">
                 <form>
-                   <form action="https://formsubmit.co/vadisabilityguru@gmail.com"
-                    method="POST">
+                   <form action=""
+                    method="post">
                     <fieldset class="form-group">
                         <input type="email" name="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email" required>
                     </fieldset>
                     <fieldset class="form-group">
-                        <textarea class="form-control" name="name" id="exampleMessage" placeholder="Message" required></textarea>
+                        <textarea class="form-control" name="message" id="exampleMessage" placeholder="Message" required></textarea>
                     </fieldset>
                     <fieldset class="form-group text-xs-right">
-                        <button type="submit" class="text">Submit</button>
+                        <button type="submit" name="submit" class="text">Submit</button>
                        
                     </fieldset>
                 </form>
