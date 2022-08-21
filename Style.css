@@ -16,7 +16,16 @@ body {
   background-size: cover;
   margin-bottom: 200px;
    }
-
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 .text {
    color: black;
