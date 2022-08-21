@@ -19,13 +19,9 @@ body {
 .column {
   float: left;
   width: 33.33%;
-  padding: 50px;
+  padding: 5px;
 }
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
+
 
 .text {
    color: black;
