@@ -16,6 +16,8 @@ body {
   background-size: cover;
   margin-bottom: 200px;
    }
+
+
 .column {
   float: left;
   width: 33.33%;
@@ -114,7 +116,7 @@ footer {
  left: 0;
  bottom: 0;
  width: 100%;
- height: 200px;
+ height: 140px;
  padding-top: 30px;
  background-color: #292c2f;
  color: #bbb;
